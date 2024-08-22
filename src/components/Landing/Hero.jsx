@@ -7,9 +7,12 @@ const Hero = () => {
   return (
     <div id="Home" className="flex items-center flex-col gap-9">
       <img
-        className="mt-36 rounded-full w-64 h-72 mob:mt-16 mob:w-64"
+        className="mt-36 rounded-full mob:mt-16 mob:w-64"
         src={profileImg}
         alt="profile-img"
+        width="256"
+        height="288"
+        loading="lazy"
       />
       <h1 className="text-center w-9/12 text-7xl font-semibold mob:mt-12 mob:w-[90%] mob:text-5xl">
         <span className="bg-gradient-to-r from-fuchsia-500 to-amber-500 bg-clip-text text-transparent">

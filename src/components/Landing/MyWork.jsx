@@ -17,6 +17,7 @@ const MyWork = () => {
           src={theme}
           alt="theme"
           style={{ zIndex: -1 }}
+          loading="lazy"
         />
       </div>
       <div

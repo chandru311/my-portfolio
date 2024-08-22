@@ -50,6 +50,9 @@ const Navbar = () => {
           }}
           alt="menuOpen"
           className="md:hidden mob:block mob:absolute mob:right-7 mob:cursor-pointer"
+          width="36"
+          height="29"
+          loading="lazy"
         />
         <ul
           ref={menuRef}
@@ -62,6 +65,9 @@ const Navbar = () => {
             }}
             alt="menuClose"
             className="md:hidden mob:block mob:relative mob:top-7 mob:left-[290px] mob:w-7 mob:cursor-pointer"
+            width="15"
+            height="15"
+            loading="lazy"
           />
           {menus.map((item) => (
             <li
@@ -79,6 +85,9 @@ const Navbar = () => {
                   className=" flex m-auto"
                   src={underline}
                   alt="nav-underline"
+                  width="37"
+                  height="12"
+                  loading="lazy"
                 />
               ) : (
                 <></>

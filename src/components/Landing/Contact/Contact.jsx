@@ -25,6 +25,7 @@ const Contact = () => {
           alt="theme"
           className="absolute bottom-0 right-0 mob:w-32 mob:-right-5"
           style={{ zIndex: -1 }}
+          loading="lazy"
         />
       </div>
       <div className=" flex gap-36 mob:flex-col mob:gap-16">
@@ -43,7 +44,14 @@ const Contact = () => {
                 key={item.label}
                 className="flex items-center gap-5 mob:gap-2"
               >
-                <img src={item.icon} alt="icon" className="mob:w-6" />
+                <img
+                  src={item.icon}
+                  alt="icon"
+                  className="mob:w-6"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                />
                 <p className="mob:text-xl">{item.label}</p>
               </div>
             ))}

@@ -17,6 +17,7 @@ const Skills = () => {
           src={theme}
           alt="theme"
           style={{ zIndex: -1 }}
+          loading="lazy"
         />
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10 mb-20 sm:grid-cols-1">

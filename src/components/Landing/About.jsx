@@ -23,6 +23,7 @@ const About = () => {
           style={{ zIndex: -1 }}
           src={theme}
           alt="theme"
+          loading="lazy"
         />
       </div>
       <div id="section" className="flex gap-20 mob:flex-col">
