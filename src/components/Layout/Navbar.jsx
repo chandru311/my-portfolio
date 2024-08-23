@@ -16,8 +16,8 @@ const Navbar = () => {
   const menus = [
     { label: "Home", value: 1 },
     { label: "About", value: 2 },
-    { label: "Services", value: 3 },
-    { label: "Portfolio", value: 4 },
+    { label: "Skills", value: 3 },
+    { label: "Works", value: 4 },
     { label: "Contact", value: 5 },
   ];
 
