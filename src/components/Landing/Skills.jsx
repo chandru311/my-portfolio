@@ -5,7 +5,7 @@ import SkillsData from "../../common/skills_data";
 const Skills = () => {
   return (
     <div
-      id="Services"
+      id="Skills"
       className="flex flex-col items-center content-center justify-center gap-20 my-20 mx-44 mob:my-12 mob:mx-16 mob:items-start"
     >
       <div className="relative">

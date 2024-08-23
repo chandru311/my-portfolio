@@ -5,7 +5,7 @@ import myWork from "../../common/mywork_data";
 const MyWork = () => {
   return (
     <div
-      id="Portfolio"
+      id="Works"
       className="flex flex-col items-center content-center my-20 gap-10 mx-44 mob:my-12 mob:mx-16 mob:items-start"
     >
       <div className="relative">
